@@ -18,7 +18,7 @@ function Todo ({todo, index, markTodo, removeTodo}) {
 }
 
 function FormTodo({addTodo}) {
-    const [value. setValue] = React.useState("");
+    const [value, setValue] = React.useState("");
 
     const handleSubmit = e => {
         e.preventDefault();
